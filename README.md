@@ -27,12 +27,12 @@
 
 # Quick_Sort_Mips.asm
 
-• Get a number of input (n)
-• Get n number of integer input
-• save into an integer array
-• Display the input array
-• Call quicksort function to sort the input array
-• Display the sorted array
+• Get a number of input (n)<br /> 
+• Get n number of integer input<br /> 
+• save into an integer array<br /> 
+• Display the input array<br /> 
+• Call quicksort function to sort the input array<br /> 
+• Display the sorted array<br /> 
 
 # Quick Sort Program in C
 
