@@ -98,6 +98,7 @@ display ( inputArray , num ) ;<br />
 • Call quicksort function to sort the input array<br /> 
 • Display the sorted array<br /> 
 <br /> 
+
 # Quick Sort Program in C
 <br /> 
 void display ( int * array , int size ) {<br /> 
