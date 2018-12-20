@@ -1,40 +1,16 @@
-# Mips-AssemblyLanguage
+# Optimization-Level-3--O3
 # © 2018 TAN RUAN ZHEN XIN ALL RIGHTS RESERVED
-# Reverse_String.asm
 
- • read a string from a keyboard<br /> 
- • use a character array<br /> 
- • count the number of characters in the string using a loop<br /> 
- • reverse the string and print the reversed string<br /> 
- • use loop and a temp character array for reversing<br /> 
- 
-# Reverse String Program in C
+Optimization Matrix Program Level 3 -O3
 
-<img width="570" alt="screen shot 2018-05-15 at 9 22 15 am" src="https://user-images.githubusercontent.com/28322834/40059524-40cf4398-5822-11e8-87bf-b0aca00b3ab7.png">
+The Objective of this project is to design and implement a C program that performs computations on large matrices. 
+The size of a matrix is large enough so that the execution of program causes paging.
 
-# Selection_Sort_Mips.asm
+Different choices of copying the matrix may have different impacts on the program runtime. 
+Using optimization level3(-O3) we can improve the perfmance of the code and reduce the execution time of the program. 
 
-• Get a number of input (n)<br /> 
-• Get n number of integer input<br /> 
-• save into an integer array<br /> 
-• Display the input array<br /> 
-• Call selectionSort function to sort the input array<br /> 
-• Display the sorted array<br /> 
-
-# Selection Sort Program in C
-
-<img width="772" alt="screen shot 2018-05-15 at 9 29 43 am" src="https://user-images.githubusercontent.com/28322834/40059740-e62c76ee-5822-11e8-8619-e26b8e721bc0.png">
-
-# Quick_Sort_Mips.asm
-
-• Get a number of input (n)<br /> 
-• Get n number of integer input<br /> 
-• save into an integer array<br /> 
-• Display the input array<br /> 
-• Call quicksort function to sort the input array<br /> 
-• Display the sorted array<br /> 
-
-# Quick Sort Program in C
-
-<img width="677" alt="screen shot 2018-05-15 at 9 31 15 am" src="https://user-images.githubusercontent.com/28322834/40059758-ed8d9ecc-5822-11e8-9df2-2e6d26ecf289.png">
-
+# Mechanisms:
+1.	Caching: different cache block size can affect the runtime when integrated with other techniques (SIMD and superscalar mechanism)
+2.	SIMD: Single Instruction Multiple Data (SIMD). It means performing a single operation on multiple data points simultaneously.
+3.	Superscalar mechanisms: A superscalar processor executes more than one instruction 
+during a clock cycle by simultaneously dispatching multiple instructions to different components on the processor. 
