@@ -9,6 +9,8 @@ The size of a matrix is large enough so that the execution of program causes pag
 Different choices of copying the matrix may have different impacts on the program runtime. 
 Using optimization level3(-O3) we can improve the perfmance of the code and reduce the execution time of the program. 
 
+
+
 ![Optimization](https://user-images.githubusercontent.com/28322834/123498496-31de6500-d5fe-11eb-94e9-2ae55a691cf8.png)
 
 
